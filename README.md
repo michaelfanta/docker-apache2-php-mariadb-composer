@@ -38,3 +38,28 @@ MARIADB_ROOT_PASSWORD=t00r
 MARIADB_USER=app
 MARIADB_PASSWORD=t00r
 ```
+
+
+<hr>
+
+## Requirements
+
+ * docker ( https://www.docker.com/ )
+ * docker-compose ( https://github.com/docker/compose )
+
+### Run the application
+
+1. Start the application:
+
+```
+docker-compose up -d
+```
+
+2. Open your browser:
+ - App: http://localhost:8000 (If you have not changed the default port)
+ - PHPMyAdmin: http://localhost:8080 (If you have not changed the default port)
+
+3. Stop and clear services:
+```
+docker-compose down -v
+```
